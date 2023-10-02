@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital@0;1&family=Source+Code+Pro&display=swap');
+
+body {
+    background: linear-gradient(#45a2f4, rgb(0, 30, 255));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    animation: gradientMovement 10s infinite alternate;
+}
+
+@keyframes gradientMovement {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.welcome-text {
+    font-family: 'Pacifico', sans-serif;
+    background: rgba(134, 7, 245, 0);
+    border-radius: 10px;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.962);
+    text-align: center;
+}
+
+.sobre-bot {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    opacity: 1;
+    overflow-y: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra */
+}
+
+.sobre-bot h1 {
+    color: #45a2f4; /* Cor para o título */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sobre-bot p {
+    margin-bottom: 10px;
+    text-align: justify; /* Justificar o texto */
+}
+
+.sobre-bot ul {
+    list-style-type: disc; /* Estilo de marcadores de lista */
+    padding-left: 20px; /* Adicionando recuo para a lista */
+}
+
+.sobre-bot li {
+    margin-bottom: 5px;
+}
+
+.sobre-bot a {
+    color: #45a2f4; /* Cor dos links */
+    text-decoration: none; /* Removendo sublinhado dos links */
+}
+
+.sobre-bot a:hover {
+    text-decoration: underline; /* Adicionando sublinhado ao passar o mouse */
+}
+@keyframes moveGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}

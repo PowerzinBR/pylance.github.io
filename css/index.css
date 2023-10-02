@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital@0;1&family=Source+Code+Pro&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#45a2f4, rgb(0, 30, 255));
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Agora centralizamos o conteúdo */
+    align-items: center; /* E também o alinhamos verticalmente */
+    height: 100vh; /* Altura da tela */
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.welcome-text {
+    font-family: 'Pacifico', sans-serif;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    background: #00000000;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.962); /* Adicionando a cor branca ao texto */
+}
+
+.curiosidade {
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: bold;
+}
+
+.material-icons {
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.sobre-bot {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.bem-vindo-bot {
+    font-family: 'Pacifico', sans-serif;
+}
+
+.funcionalidades {
+    font-family: 'Pacifico', sans-serif;
+}
+
+
+.welcome-text {
+    font-family: 'Pacifico', sans-serif;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    background: #00000000;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.962); /* Adicionando a cor branca ao texto */
+    flex: 1;/* Espaçamento à direita para evitar sobreposição com a lista */
+}
+
+.menu-lateral {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 1;
+    height: 100%;
+    overflow-y: auto;
+    width: 200px;
+    position: fixed; /* Fixa a posição para que a lista não role com o conteúdo */
+    left: 0; /* Posiciona a lista à esquerda */
+    top: 0; /* Alinha a lista ao topo */
+    box-sizing: border-box; /* Garante que a largura da lista inclui padding */
+    z-index: 999; /* Garante que a lista esteja acima do conteúdo */
+}
+
+.menu-lateral ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove o espaço extra em torno da lista */
+}
+
+.menu-lateral li {
+    margin-bottom: 10px;
+}
+
+.menu-lateral a {
+    text-decoration: none;
+    color: #45a2f4; /* Ajusta a cor para combinar com o estilo */
+    display: block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.menu-lateral a:hover {
+    background-color: #45a2f4; /* Altera a cor de fundo ao passar o mouse */
+    color: white; /* Ajusta a cor do texto ao passar o mouse */
+}
+
+/* Fade-in quando a página carrega */
+.menu-lateral.fade-in {
+    opacity: 1;
+}
+
+.vertical-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+
+
+
